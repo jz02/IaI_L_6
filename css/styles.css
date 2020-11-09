@@ -1,0 +1,16 @@
+body {
+   transition: 1.1s background-color;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.scroll {
+     display: none;
+}
